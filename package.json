@@ -1,6 +1,7 @@
 {
   "name": "next-global-css",
   "version": "0.0.1",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yarastqt/next-global-css.git"
