@@ -1,0 +1,16 @@
+{
+  "name": "next-global-css",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarastqt/next-global-css.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yarastqt/next-global-css/issues"
+  },
+  "homepage": "https://github.com/yarastqt/next-global-css#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
