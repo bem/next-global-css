@@ -1,0 +1,15 @@
+{
+  "name": "next-10",
+  "version": "0.0.1",
+  "private": "true",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "3d-party-library": "file:../__fixtures__/3d-party-library/3d-party-library-0.0.1.tgz",
+    "next": "^10.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
