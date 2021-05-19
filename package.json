@@ -2,6 +2,9 @@
   "name": "next-global-css",
   "version": "0.0.1",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yarastqt/next-global-css.git"
@@ -12,6 +15,6 @@
   },
   "homepage": "https://github.com/yarastqt/next-global-css#readme",
   "scripts": {
-    "test": "node ./__tests__/index.test.js"
+    "test-next-10": "node ./__tests__/index.test.js --version=10"
   }
 }
