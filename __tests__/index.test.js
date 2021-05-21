@@ -8,7 +8,7 @@ function prepareFixture(version) {
   console.log('> Pack 3d-party-library')
   execSync('npm pack', { cwd: resolve(__dirname, '__fixtures__/3d-party-library'), stdio: 'ignore' })
   console.log(`> Install next-${version} deps`)
-  execSync('npm i', { cwd: resolve(__dirname, `next-${version}`), stdio: 'ignore' })
+  execSync('npm i --no-package-lock', { cwd: resolve(__dirname, `next-${version}`), stdio: 'ignore' })
 }
 
 function runBuild(version) {
