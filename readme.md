@@ -21,7 +21,11 @@ npm i -DE next-global-css
 ```js
 const { withGlobalCss } = require('next-global-css')
 
-module.exports = withGlobalCss()
+const withConfig = withGlobalCss()
+
+module.exports = withConfig({
+  /* Next.js config options here */
+})
 ```
 
 ## 📜 License
