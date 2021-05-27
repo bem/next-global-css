@@ -15,7 +15,9 @@
   },
   "homepage": "https://github.com/yarastqt/next-global-css#readme",
   "scripts": {
+    "test-next-10-local": "node ./__tests__/index.test.js --version=10-local",
+    "test-next-10-ssr": "node ./__tests__/index.test.js --version=10-ssr",
     "test-next-10": "node ./__tests__/index.test.js --version=10",
-    "test-next-10-ssr": "node ./__tests__/index.test.js --version=10-ssr"
+    "test": "npm run test-next-10-local && npm run test-next-10-ssr && npm run test-next-10"
   }
 }
