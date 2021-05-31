@@ -10,6 +10,7 @@
     "3d-party-library": "file:../__fixtures__/3d-party-library/3d-party-library-0.0.1.tgz",
     "next": "^10.2.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "sass": "^1.34.0"
   }
 }
