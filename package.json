@@ -1,6 +1,6 @@
 {
   "name": "next-global-css",
-  "version": "0.0.1-beta.6",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "files": [
     "lib"
