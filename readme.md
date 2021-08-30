@@ -8,7 +8,7 @@ A preset for [nextjs][nextjs] allowing using 3d party libraries with global css.
 
 ## 🏗 Compatible
 
-Current version works only for 10th version of [nextjs][nextjs].
+Current version works only for 10th version of [nextjs][nextjs] or higher.
 
 ## ☄️ Install and usage
 
