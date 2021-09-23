@@ -15,7 +15,7 @@ Current version works only for 10th version of [nextjs][nextjs] or higher.
 **Installation:**
 
 ```sh
-npm i -DE next-global-css
+npm i -PE next-global-css
 ```
 
 **Configure:**
