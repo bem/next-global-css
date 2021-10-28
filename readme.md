@@ -30,6 +30,19 @@ module.exports = withConfig({
 })
 ```
 
+**If your webpack configuration is already customized:**
+```js
+const { patchWebpackConfig } = require('next-global-css')
+
+const nextConfig = {
+  /* config options here */
+  /* your already customized webpack option */
+  webpack: (config, options) => {
+    patchWebpackConfig(config, options)
+  },
+}
+```
+
 ## 📜 License
 
 Project is [MIT licensed](https://github.com/yarastqt/next-global-css/blob/master/license.md).
