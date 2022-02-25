@@ -31,6 +31,7 @@ module.exports = withConfig({
 ```
 
 **If your webpack configuration is already customized:**
+
 ```js
 const { patchWebpackConfig } = require('next-global-css')
 
@@ -39,6 +40,29 @@ const nextConfig = {
   /* your already customized webpack option */
   webpack: (config, options) => {
     patchWebpackConfig(config, options)
+  },
+}
+```
+
+**Allow css-modules from node-modules:**
+
+```js
+const { patchWebpackConfig } = require('next-global-css')
+const webpackNodeExternals = require('webpack-node-externals')
+
+module.exports = {
+  reactStrictMode: true,
+  webpack: (config, options) => {
+    patchWebpackConfig(config, options)
+
+    if (options.isServer) {
+      config.externals = webpackNodeExternals({
+        // Uses list to add this modules for server bundle and process.
+        allowlist: [/design-system/],
+      })
+    }
+
+    return config
   },
 }
 ```
