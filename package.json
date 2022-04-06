@@ -18,6 +18,7 @@
     "test-next-10-local": "node ./__tests__/index.test.js --version=10-local",
     "test-next-10-ssr": "node ./__tests__/index.test.js --version=10-ssr",
     "test-next-10": "node ./__tests__/index.test.js --version=10",
-    "test": "npm run test-next-10-local && npm run test-next-10-ssr && npm run test-next-10"
+    "test-next-12-react-18-local": "node ./__tests__/index.test.js --version=12-react-18-local",
+    "test": "npm run test-next-10-local && npm run test-next-10-ssr && npm run test-next-10 && npm run test-next-12-react-18-local"
   }
 }
