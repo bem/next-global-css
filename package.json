@@ -7,13 +7,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yarastqt/next-global-css.git"
+    "url": "git+https://github.com/bem/next-global-css.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yarastqt/next-global-css/issues"
+    "url": "https://github.com/bem/next-global-css/issues"
   },
-  "homepage": "https://github.com/yarastqt/next-global-css#readme",
+  "homepage": "https://github.com/bem/next-global-css#readme",
   "scripts": {
     "test-next-10-local": "node ./__tests__/index.test.js --version=10-local",
     "test-next-10-ssr": "node ./__tests__/index.test.js --version=10-ssr",
